@@ -1,7 +1,5 @@
 
 /**
- * Write a description of class ProblemRNA here.
- *
  * @author (your name)
  * @version (a version number or a date)
  */
@@ -16,9 +14,8 @@ public class ProblemRNA
         System.out.println(output);
     }
         
-    // This should take the given string and return an int
-    //   array of how many times each letter occurs in the 
-    //   string. Ideally in A C G T order. 
+    // This should take the given string and return a string
+    //   that replaces 'T' with 'U'
     private static String transcribeDNAtoRNA(String dnaString) {
         return "GAUGGAACUUGACUACGUAAAUU";
     }    
